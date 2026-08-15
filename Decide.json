@@ -1,0 +1,2 @@
+Profile: { age:32, goals:"weight loss", equipment:["dumbbell"] }
+Task: Generate a 7-day workout plan. Return ONLY valid JSON matching this shape: { "summary": "", "days":[{ "day":"", "exercises":[{ "name":"", "sets":0, "reps":"", "rest_seconds":0 }] }], "weekly_calories_burn_estimate":0 }
