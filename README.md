@@ -1,3 +1,4 @@
+
 # 🏋️‍♂️ Pulse AI — Intelligent Fitness & Nutrition Mobile Coach
 
 > A production-grade, cross-platform mobile application powered by **React Native (Expo)**, **Firebase**, and **Google Gemini AI**. Pulse AI creates personalized workout routines, custom macro nutrition plans, weight tracking visualizer charts, and real-time interactive AI fitness coaching.
@@ -15,7 +16,10 @@
 <p align="center">
    <img width="300" alt="Workout AI - Profile" src="https://github.com/user-attachments/assets/a2aed9d1-c813-465d-995a-b6026fc05d20" />
   <img width="300" alt="Workout AI - Home" src="https://github.com/user-attachments/assets/7a2bd968-d37e-4c52-a2a2-dd6c484aa7fe" />
+  </p>
+  <p align="center">
   <img width="300" alt="Workout AI - Progress" src="https://github.com/user-attachments/assets/b2c65d58-846e-48c6-8f1a-cc39f18356d9" />
+  <img width="300" alt="Workout AI" src="https://github.com/user-attachments/assets/f2b7da64-d02b-4b3e-922c-ee4b39694159" />
  
 </p>
 
