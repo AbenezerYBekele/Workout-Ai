@@ -1,56 +1,58 @@
-# Welcome to your Expo app 👋
+# 🏋️‍♂️ Pulse AI — Intelligent Fitness & Nutrition Mobile Coach
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> A production-grade, cross-platform mobile application powered by **React Native (Expo)**, **Firebase**, and **Google Gemini AI**. Pulse AI creates personalized workout routines, custom macro nutrition plans, weight tracking visualizer charts, and real-time interactive AI fitness coaching.
 
-## Get started
+---
 
-1. Install dependencies
+## 🌟 Technical Highlights for Recruiters
 
-   ```bash
-   npm install
-   ```
+* **Deterministic AI JSON Schemas:** Enforces strict structural constraints on Generative AI prompts, guaranteeing 100% predictable JSON payloads for mobile rendering.
+* **Serverless Proxy & Zero-Trust Security:** API keys are protected using **Firebase Secret Manager** and **Firebase AI Logic**, completely eliminating client-side key exposure in mobile production bundles.
+* **Reactive Route Guarding:** Built a central navigation observer in **Expo Router** using the **Observer Pattern** (`onAuthStateChanged`) and route segment monitoring to handle auth states and onboarding gates seamlessly.
+* **Optimized Local Caching:** Utilized **Zustand** for client-side state caching to minimize Firestore read operations and ensure instant UI transitions.
+* **Enterprise Modular Design System:** Engineered a decoupled styling architecture (`.styles.js`) supporting responsive desktop split-screens and mobile viewports.
 
-2. Start the app
+<p align="center">
+   <img width="300" alt="Workout AI - Profile" src="https://github.com/user-attachments/assets/a2aed9d1-c813-465d-995a-b6026fc05d20" />
+  <img width="300" alt="Workout AI - Home" src="https://github.com/user-attachments/assets/7a2bd968-d37e-4c52-a2a2-dd6c484aa7fe" />
+  <img width="300" alt="Workout AI - Progress" src="https://github.com/user-attachments/assets/b2c65d58-846e-48c6-8f1a-cc39f18356d9" />
+ 
+</p>
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+## 🚀 Key Feature Modules
+1. Authentication & Onboarding
+2. AI Workout Generator
+3. AI Meal Planner & Grocery List
+4. Progress Visualizer & Cloud Storage
+5. Real-Time AI Coach ("Coach Max")
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Technical Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Layer | Technology |
+|---|---|
+| **Frontend Framework** | React Native (Expo SDK 52/57) |
+| **Routing & Navigation** | Expo Router (File-based navigation) |
+| **Global State Management** | Zustand |
+| **Backend & Database** | Firebase Cloud Firestore |
+| **Authentication** | Firebase Authentication (Email, OAuth, Anonymous) |
+| **Media Storage** | Firebase Storage |
+| **AI / Machine Learning** | Google Gemini 2.0 Flash / Firebase AI Logic |
+| **Styling & Design** | React Native StyleSheet / NativeWind (Tailwind CSS) |
+| **Data Visualization** | React Native Chart Kit & React Native SVG |
 
-## Get a fresh project
 
-When you're ready, run:
+### 🛠️ Tech Stack & Purpose
 
-```bash
-npm run reset-project
-```
+| Layer | Technology | Version | Purpose in Application |
+| :--- | :--- | :--- | :--- |
+| **Framework** | [React Native (Expo)](https://expo.dev) | SDK 52 / 57 | Cross-platform mobile & web runtime |
+| **Routing** | [Expo Router](https://docs.expo.dev/router/introduction/) | v4 / v5 | File-based navigation & route guarding |
+| **AI Engine** | [Google Gemini 2.0 Flash](https://ai.google.dev) | v2.0 | Generating workout plans, macros, & chat responses |
+| **Database** | [Cloud Firestore](https://firebase.google.com/docs/firestore) | v11+ | Storing user profiles, workout plans, & logs |
+| **Authentication** | [Firebase Auth](https://firebase.google.com/docs/auth) | v11+ | Email/Password, Anonymous, & Google Sign-In |
+| **File Storage** | [Firebase Storage](https://firebase.google.com/docs/storage) | v11+ | Cloud storage for progress transformation photos |
+| **State Management** | [Zustand](https://github.com/pmndrs/zustand) | v5+ | Lightweight client-side profile caching |
+| **Visualization** | [React Native Chart Kit](https://github.com/indiespirit/react-native-chart-kit) | v7+ | Rendering dynamic weight trend line charts |
+| **Icons** | [Lucide React Native](https://lucide.dev) | v1.25+ | Modern vector icons for UI tabs & cards |
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
